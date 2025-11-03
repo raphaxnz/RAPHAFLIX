@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 20px 0;
+    box-shadow: 1px 2px 40px 3px rgb(33, 33, 33);
+    opacity: 0.95;
+    z-index: 10;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 200px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: rgb(126, 0, 0);
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: lighter;
+    color: rgb(126, 0, 0);
+    margin-top: 0; 
+    padding-top: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    box-shadow: 0px 4px 5px 0px rgba(126, 0, 0, 0.5);
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.btn > img {
+    width: 30px;
+    height: 35px;
+}
+
+.btn:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+li > a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(126, 0, 0);
+    font-size: 25px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    display: block; 
+}
+
+li > a:hover {
+    background-color: rgb(18, 18, 18);
+    border-radius: 3px;
+    opacity: 0.9;
+    padding: 10px 20px;
+    transform: scale(1.02);
+}
+
+#aboutMe, #curiosidades, #places {
+    scroll-margin-top: 200px; 
+    box-shadow: 0 4px 15px rgb(33, 33, 33);
+    border-radius: 20px;
+    border-left: 5px solid rgb(126, 0, 0);
+    padding: 40px;
+    color: white;
+}
+
+#home {
+    scroll-margin-top: 100px;
+    padding-top: 150px; 
+    margin-bottom: 200px;
+}
+
+section > p, section ul, section ol {
+    font-size: 20px;
+    text-indent: 0; 
+}
+
+#aboutMe > p {
+    font-size: 20px;
+    color: white;
+}
+#nome, #sobrenome {
+    font-weight: bolder;
+    font-size: 10rem;
+    color: rgb(126, 0, 0);
+}
+
+#nome {
+    margin-top: -620px; 
+    margin-left: -100px;
+}
+
+#sobrenome {
+    margin-top: 180px; 
+    margin-left: 700px;
+}
+
+section > img {
+    filter: brightness(40%);
+    margin: 0 auto;
+    margin-top: -35px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    display: block;
+    width: 900px;
+    cursor: pointer;
+}
+
+section > img:hover {
+    transform: scale(1.04);
+}

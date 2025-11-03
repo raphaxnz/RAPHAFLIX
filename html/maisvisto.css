@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 5px;
+    color: rgb(205, 2, 2);
+    text-align: center;
+}
+
+td{
+    padding: 25px;
+}
+
+#imgm{
+    border-radius: 25px;
+    box-shadow: 3px 3px 25px 6px rgb(205, 2, 2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#imgm:hover{
+    transform: scale(1.2);
+}
+
+table{
+    margin: 0 auto;
+    width: 300px;
+    color: rgb(205, 2, 2);
+}
+
+#h11{
+    color: rgb(205, 2, 2);
+}
+
+
+
+#resenha{
+    background-color: black;
+    color: white ;
+    margin: 0 auto;
+    text-align: justify;
+    width: 1400px;
+    text-indent: 20px;
+}
+
+#nota{
+    color: rgb(205, 2, 2);
+    text-align: left;
+    text-indent: 80px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(205, 2, 2);
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+}
+
